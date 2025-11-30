@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 10%);
+}
+
+#StaplerImage {
+    height: 500px;
+}
+
+#StaplerBaseDiv {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#StaplerDrawing{
+    height: 500px;
+    rotate: 90deg;
+}
+#StaplerBase{
+    text-align: center;
+}
+#IndivReport{
+    font-size: 20px;
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}

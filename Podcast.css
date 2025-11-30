@@ -1,0 +1,21 @@
+#Lost {
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    place-items: center;
+}

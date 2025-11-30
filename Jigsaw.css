@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#SpeedControlWheel {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#SpeedWheelDrawing {
+    width: 600px;
+}
+
+a {
+    margin-bottom: 20px;
+}
+p{
+    width: 500px;
+    text-align: center;
+}
+#SpeedWheelImage{
+    width: 300px;
+}
+#GroupReport{
+    font-size: 20px;
+    color: hsl(0, 0%, 10%);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
