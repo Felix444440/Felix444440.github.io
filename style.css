@@ -2,6 +2,9 @@
     --primaryColor: #ffffff;
     --text: #ffffffc2;
     --background: #2d2076;
+    --button: #2a277a;
+    --borderColor: #715af4;
+    --Hovercolor: #f2ce83; 
 }
 
 body {
@@ -63,4 +66,16 @@ h4 {
 
 li {
     line-height: 40px;
+}
+button{
+    padding: 10px 20px;
+    background-color: var(--button);
+    border-color: var(--borderColor);
+    transition: background-color .3s ease;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button :hover{
+    background-color: #f2ce83;
 }

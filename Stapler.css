@@ -3,6 +3,8 @@
     --text: #ffffffc2;
     --background: #2d2076;
     --borderColor: #715af4;
+    --button: #2a277a;
+    --Hovercolor: #f2ce83; 
 }
 
 body {
@@ -35,6 +37,7 @@ p{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    margin-top: 20px;
 }
 
 #StaplerDrawing{
@@ -52,5 +55,19 @@ p{
     color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: var(--button);
+    border-color: var(--borderColor);
+    transition: background-color .3s ease;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button :hover{
+    background-color: var(--Hovercolor);
+    border-color: var(--Hovercolor)
 }
