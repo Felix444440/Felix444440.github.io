@@ -7,22 +7,27 @@
     --Hovercolor: #f2ce83; 
 }
 
-body {
+html{
     background-color: var(--background);
+    color: var(--text);
+}
+
+body {
+    /* background-color: var(--background); */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: hsl(0, 0%, 10%);
+    /* color: hsl(0, 0%, 10%); */
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1 {
+/* h1 {
     color: var(--text);
-}
-p{
+} */
+/* p{
     color: var(--text);
-}
+} */
 
 #StaplerImage {
     height: 500px;
@@ -32,7 +37,7 @@ p{
 }
 
 #StaplerBaseDiv {
-    background-color: var(--background);
+    /* background-color: var(--background); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,5 +74,4 @@ button{
 
 button :hover{
     background-color: var(--Hovercolor);
-    border-color: var(--Hovercolor)
 }

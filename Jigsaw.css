@@ -6,8 +6,13 @@
     --Hovercolor: #f2ce83; 
 }
 
-body {
+html{
     background-color: var(--background);
+    color: var(--text);
+}
+
+body {
+    /* background-color: var(--background); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +20,12 @@ body {
 }
 
 h1 {
-    color: var(--text);
+    /* color: var(--text); */
     font-family: 'Times New Roman', Times, serif;
 }
 
 #SpeedControlWheel {
-    background-color: var(--background);
+    /* background-color: var(--background); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +47,7 @@ a {
 p{
     width: 500px;
     text-align: center;
-    color: var(--text);
+    /* color: var(--text); */
 }
 #SpeedWheelImage{
     width: 300px;
@@ -52,7 +57,7 @@ p{
 }
 #GroupReport{
     font-size: 20px;
-    color: var(--text);
+    /* color: var(--text); */
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
@@ -68,5 +73,5 @@ button{
 
 button :hover{
     background-color: var(--Hovercolor);
-    border-color: var(--Hovercolor)
+    /* border-color: var(--Hovercolor) */
 }
