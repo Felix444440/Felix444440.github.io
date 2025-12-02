@@ -57,7 +57,7 @@ p{
 }
 #GroupReport{
     font-size: 20px;
-    /* color: var(--text); */
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
@@ -71,7 +71,7 @@ button{
     border-radius: 3px;
 }
 
-button :hover{
+button:hover{
     background-color: var(--Hovercolor);
     /* border-color: var(--Hovercolor) */
 }

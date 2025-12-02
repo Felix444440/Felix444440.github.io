@@ -72,6 +72,6 @@ button{
     border-radius: 3px;
 }
 
-button :hover{
+button:hover{
     background-color: var(--Hovercolor);
 }
