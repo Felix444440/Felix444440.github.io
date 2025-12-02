@@ -1,49 +1,63 @@
+:root{
+    --primaryColor: #ffffff;
+    --text: #ffffffc2;
+    --background: #2d2076;
+}
+
 body {
-    background-color: hsl(0, 0%, 90%);
+    /* background-color: hsl(0, 0%, 90%); */
+    background-color: var(--background);
+    color: var(--text);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
 }
 
 h1 {
-    color: hsl(0, 0%, 10%);
+    /* color: hsl(0, 0%, 10%); */
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     font-size: 35px;
-    gap: 15px;
+    margin-bottom: 10px;
+    background-color: var(--background);
+}
+#Link{
+    color: var(--text);
 }
 
-#resumeLink {
+a{
     font-size: 20px;
-    color: hsl(0, 0%, 10%);
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration:none;
-}
-
-#StaplerLink {
-    font-size: 20px;
-    color: hsl(0, 0%, 10%);
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
-#JigsawLink {
+p{
     font-size: 20px;
-    color: hsl(0, 0%, 10%);
-    font-family: 'Times New Roman', Times, serif;
+    color: var(--text);
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
+    text-align: center;
+    width: 50vw;
 }
-#Podcast{
-    font-size: 20px;
-    color: hsl(0, 0%, 10%);
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+
+h2{ 
+    font-size: 25px;
+    margin-bottom: 7px;
 }
-#p{
-    font-size: 20px;
-    color: hsl(0, 0%, 10%);
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+
+/* ul li a:hover{
+    color: yellow;
+} */
+h3{
+    margin-bottom: 35px;
+}
+h4{
+    margin-bottom: 7px;
+}
+li{
+    line-height: 40px;
 }

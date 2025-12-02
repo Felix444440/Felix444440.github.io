@@ -1,24 +1,36 @@
+:root{
+    --primaryColor: #ffffff;
+    --text: #ffffffc2;
+    --background: #2d2076;
+    --borderColor: #715af4;
+}
+
 body {
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
     color: hsl(0, 0%, 10%);
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color: hsl(0, 0%, 10%);
+    color: var(--text);
+}
+p{
+    color: var(--text);
 }
 
 #StaplerImage {
     height: 500px;
+    border: 4px var(--borderColor) solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
 }
 
 #StaplerBaseDiv {
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,13 +40,17 @@ h1 {
 #StaplerDrawing{
     height: 500px;
     rotate: 90deg;
+    border: 4px var(--borderColor) solid;
+    border-radius: 5px;
+    box-shadow: 5px -5px 7px black;
 }
 #StaplerBase{
     text-align: center;
 }
 #IndivReport{
     font-size: 20px;
-    color: hsl(0, 0%, 10%);
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    margin-bottom: 20px;
 }

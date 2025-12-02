@@ -1,5 +1,12 @@
+:root{
+    --primaryColor: #ffffff;
+    --text: #ffffffc2;
+    --background: #2d2076;
+    --borderColor: #715af4;
+}
+
 body {
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,20 +14,25 @@ body {
 }
 
 h1 {
-    color: hsl(0, 0%, 10%);
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
 }
 
 #SpeedControlWheel {
-    background-color: hsl(0, 0%, 90%);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    /* border: 3px var(--borderColor) solid;
+    border-radius: 5px; */
 }
 
 #SpeedWheelDrawing {
     width: 600px;
+    border: 4px var(--borderColor) solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
 }
 
 a {
@@ -29,13 +41,17 @@ a {
 p{
     width: 500px;
     text-align: center;
+    color: var(--text);
 }
 #SpeedWheelImage{
     width: 300px;
+    border: 4px var(--borderColor) solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
 }
 #GroupReport{
     font-size: 20px;
-    color: hsl(0, 0%, 10%);
+    color: var(--text);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
 }
