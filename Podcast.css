@@ -34,18 +34,30 @@ body {
     place-items: center;
 }
 
+/* a{
+    border: 2px var(--borderColor) solid;
+    padding: 10px;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+    scale: 1.1;
+} */
+
 button{
     padding: 10px 20px;
     background-color: var(--button);
     border-color: var(--borderColor);
     transition: background-color .6s ease;
+    transition: color;
     cursor: pointer;
     border-radius: 3px;
 }
 
 button:hover{
     background-color: var(--Hovercolor);
-    color: var(--Activetext);
+    /* color: var(--Activetext); */
 }
 
 button :active{

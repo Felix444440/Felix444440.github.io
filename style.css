@@ -49,7 +49,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     text-align: center;
-    width: 50vw;
+    width: 75vw;
 }
 
 h2 {
@@ -80,10 +80,22 @@ button{
     border-radius: 3px;
 }
 
+a:hover{
+    color: black;
+}
+
 button :hover{
     background-color: #f2ce83;
 }
 
 li :hover{
     background-color: #f2ce83;
+    color: black;
+}
+
+h5{
+    text-align: center;
+    border: 2px var(--borderColor) solid;
+    padding: 20px;
+    margin-top: 7em;
 }
