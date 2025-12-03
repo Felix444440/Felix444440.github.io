@@ -1,10 +1,11 @@
 :root{
     --primaryColor: #ffffff;
     --text: #ffffffc2;
-    --background: #2d2076;
-    --borderColor: #715af4;
+    --background: #413878;
+    --borderColor: #251d50;
     --Hovercolor: #f2ce83; 
-    --Activetext: black;
+    --Hovertext: rgb(28, 27, 27);
+    --button: #504cb7;
 }
 
 #Lost {
@@ -60,7 +61,11 @@ button:hover{
     /* color: var(--Activetext); */
 }
 
-button :active{
+/* button :active{
     background-color: var(--text);
     color: var(--Activetext);
+} */
+
+#Lost:hover{
+    color: var(--Hovertext);
 }

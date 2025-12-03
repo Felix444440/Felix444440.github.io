@@ -1,10 +1,11 @@
 :root {
     --primaryColor: #ffffff;
     --text: #ffffffc2;
-    --background: #2d2076;
-    --button: #2a277a;
-    --borderColor: #715af4;
+    --background: #413878;
+    --button: #504cb7;
+    --borderColor: #251d50;
     --Hovercolor: #f2ce83; 
+    --Hovertext: rgb(28, 27, 27);
 }
 
 html{
@@ -66,6 +67,8 @@ h3 {
 
 h4 {
     margin-bottom: 7px;
+    /* border-bottom: var(--borderColor);
+    border-radius: 2vw; */
 }
 
 li {
@@ -98,4 +101,8 @@ h5{
     border: 2px var(--borderColor) solid;
     padding: 20px;
     margin-top: 7em;
+}
+
+#Link:hover{
+    color: var(--Hovertext);
 }

@@ -1,10 +1,11 @@
 :root{
     --primaryColor: #ffffff;
     --text: #ffffffc2;
-    --background: #2d2076;
-    --borderColor: #715af4;
-    --button: #2a277a;
+    --background: #413878;
+    --borderColor: #251d50;
+    --button: #504cb7;
     --Hovercolor: #f2ce83; 
+    --Hovertext: rgb(28, 27, 27);
 }
 
 html{
@@ -67,11 +68,15 @@ button{
     padding: 10px 20px;
     background-color: var(--button);
     border-color: var(--borderColor);
-    transition: background-color .3s ease;
+    transition: background-color .4s ease;
     cursor: pointer;
     border-radius: 3px;
 }
 
 button:hover{
     background-color: var(--Hovercolor);
+}
+
+#IndivReport:hover{
+    color: var(--Hovertext);
 }
